@@ -20,12 +20,7 @@
  		 gtag('config', 'UA-140920582-2');
 		</script>
 
-		<script>
-		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-		ga('create', 'UA-140920582-2', 'auto');
-		ga('send', 'pageview');
-		</script>
-		<script async src='https://www.google-analytics.com/analytics.js'></script>
+		
 		
 		
 		
@@ -173,8 +168,9 @@
 									<ul class="contact">
 										<li>
 											<h3>Email</h3>
-											<a target="_blank" href="mailto:andrew@andrewyou.ng?subject=Website Inquiry" onClick=”_gaq.push([‘_trackEvent’, ‘contact’, ‘click’, ‘email’, ‘0’]);”>andrew@andrewyou.ng</a>
+											<a target="_blank" href="mailto:andrew@andrewyou.ng?subject=Website Inquiry" gtag('event', 'click', {  'event_category': 'contact','event_label': 'email'});>andrew@andrewyou.ng</a>
 										</li>
+									
 										<!--<li>
 											<h3>Phone</h3>
 											<span>(000) 000-0000</span>
