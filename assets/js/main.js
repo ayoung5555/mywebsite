@@ -63,9 +63,10 @@
 						$sidebar_a.removeClass('active');
 
 					// Activate link *and* lock it (so Scrollex doesn't try to activate other links as we're scrolling to this one's section).
-						$this
-							.addClass('active')
-							.addClass('active-locked');
+				//3 lines below commented out for bugs when scrolling up bc about section is too small for scrollex to recognise. 
+					//	$this
+					//		.addClass('active')
+					//		.addClass('active-locked');
 
 				})
 				.each(function() {
